@@ -60,7 +60,6 @@ app.post(
               amount: SHIPPING_AMOUNT,
               currency: session.currency,
               destination: SHIPPER_ACCOUNT_ID,
-              source_transaction: chargeId,
               transfer_group: session.metadata.transfer_group,
               metadata: {
                 checkout_session_id: session.id,
