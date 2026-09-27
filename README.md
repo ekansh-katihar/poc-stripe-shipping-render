@@ -1,6 +1,15 @@
 # Stripe Shipping POC — Render
+POC on : 
+1. Stripe connect
+2. dynamic shipping price computation on the full embedded or full hosted page 
 
+Validate on Render: https://poc-stripe-shipping-render.onrender.com/
+Issues : 
+1. Shipping rates cant' be computed dynamically on the full embedded or the full hosted page [stripe](https://docs.stripe.com/payments/checkout/custom-shipping-options)
+2. Stripe connect not working likely due to unvalidated account 
 Configured values:
+
+
 
 - Product price: `price_1RtX8CJ4tvAH7yW7jAfxgcC5`
 - Shipping: `$7.00`
