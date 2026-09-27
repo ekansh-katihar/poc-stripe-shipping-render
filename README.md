@@ -9,6 +9,7 @@ Issues :
 2. Stripe connect not working likely due to unvalidated account 
 Configured values:
 
+Render logs: https://dashboard.render.com/web/srv-darfveu0tbcc73beij80/logs?t=app&r=live
 
 
 - Product price: `price_1RtX8CJ4tvAH7yW7jAfxgcC5`
